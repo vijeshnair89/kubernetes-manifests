@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: vijesh89/petclinic:6
+        image: currimage
         ports:
         - containerPort: 8080
