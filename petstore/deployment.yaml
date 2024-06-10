@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: petstore
-        image: vijesh89/petstore:3
+        image: vijesh89/jpetstore:15
         ports:
         - containerPort: 8080
