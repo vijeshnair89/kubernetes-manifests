@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: petstore-deployment
+  labels:
+    app: petstore-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: petstore
+  template:
+    metadata:
+      labels:
+        app: petstore
+    spec:
+      containers:
+      - name: petclinic
+        image: vijesh89/petstore:3
+        ports:
+        - containerPort: 8080
