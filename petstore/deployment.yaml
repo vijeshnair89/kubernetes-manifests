@@ -15,7 +15,7 @@ spec:
         app: petstore
     spec:
       containers:
-      - name: petclinic
+      - name: petstore
         image: vijesh89/petstore:3
         ports:
         - containerPort: 8080
