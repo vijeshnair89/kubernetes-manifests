@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: vijesh89/solar-system:4ccd9de
+      - image: vijesh89/solar-system:9fbc867
         imagePullPolicy: Always
         name: solar-system
         ports:
